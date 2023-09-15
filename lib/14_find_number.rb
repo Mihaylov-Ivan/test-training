@@ -17,7 +17,7 @@ class FindNumber
   end
 
   def game_over?
-    answer == @guess ? true : false
+    answer == @guess
   end
 
   def update_range
